@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>convert-money</title>
+    <img class="logo" src="/img/logo.gif" alt="Logo do site">
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <div>
+            <label for="coverter-de:">Converter de:</label>
+            <select class="select1">
+                <option>BRL</option>
+                <option>USD</option>
+                <option>EUR</option>
+                <option>BTC</option>
+            </select>
+
+        </div>
+        
+        <div>
+            <h1>converter para:</h1>
+            <label for="moedas">Escolha uma moeda:</label>
+            <select class="select2">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BTC">BTC</option>
+                <option value="BRL">BRL</option>
+            </select>
+        </div>
+        <div>
+            <label class="valor" for="valor">Valor:</label>
+            <input type="number" id="valor" placeholder="R$ 00,00">
+        </div>
+        <button>Converter</button>
+        
+
+
+        <section>
+            <div class="box1">
+                <img class="img1" src="./img/brasil 2.png" alt="Bandeira do Brasil">
+               <b></b> <p class="currency1">
+                    BRL
+                </p>
+                <p class="value1">
+                    00,00
+                </p>
+            </div>
+
+            <img class="arrow" src="./img/arrow.png" alt="Seta pra baixo">
+
+            <div class="box2">
+                <img class="img-dolar" src="./img/eua.png" alt="Bandeira dos Estados Unidos">
+
+                <p id="currency2" class="currency2">
+                    USD
+                </p>
+                <p class="value2">
+                    00,00
+                </p></b>
+            </div>
+
+        </section>
+    </header>
+<script src="./scripts.js" ></script>
+</body>
+
+</html>
