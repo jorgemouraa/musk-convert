@@ -30,9 +30,9 @@ function changeImageSelect1() {
 
     const input = Number(document.querySelector("#valor").value) || 0;
     let valueInBRL;
-    if (val === "USD") valueInBRL = input * 5.36;
+    if (val === "USD") valueInBRL = input * 5.00;
     else if (val === "EUR") valueInBRL = input * 6.25;
-    else if (val === "BTC") valueInBRL = input * 587.106;
+    else if (val === "BTC") valueInBRL = input * 375.106;
     else valueInBRL = input;
 
     
